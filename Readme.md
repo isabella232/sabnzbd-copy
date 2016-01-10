@@ -4,7 +4,7 @@ This is a python script for post processing in sabnzbd
 
 The largest file will be copied depending on the configuration.
 
-You can configure where movies and tv shows will be copied
+You can configure where this file will be copied depending on category and regex patterns
 
 # Installtion
 
