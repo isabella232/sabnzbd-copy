@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+from sabnzbd_copy import SabnzbdCopy
+import sys                                                                                                             
+                                                                                                                       
+if __name__ == "__main__":                                                                                             
+  if (len(sys.argv) < 6):
+    print("Not all command line parameters found")
+    sys.exit(1)
+  sabnzbd_copy = SabnzbdCopy()
+  directory = sys.argv[1]                                                                                            
+  category = sys.argv[5]                                                                                             
+  sys.exit(sabnzbd_copy.run(directory,category))

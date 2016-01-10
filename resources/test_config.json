@@ -1,0 +1,18 @@
+{
+	"basePath" : "/media/videos",
+        "categories" : {
+		"tvshows" : {		
+			"patterns" : {
+		       		"This week tonight" : ["^this.week.tonight"],
+				"Ted vs. Evil": ["^ted.vs.evil"],
+			        "The Theory" : ["^(the.)?theory"],
+			        "You're the best" : ["^you.?re.the.best"] 
+			},
+			"subFolder" : "Serien",
+			"miscFolder" : "temp"
+		},
+                "movies" : {
+			"subFolder" : "Filme"
+		}
+	}
+}
