@@ -68,7 +68,6 @@ class SabnzbdCopy:
           regex = re.compile(folder_pattern, re.IGNORECASE)
           if(regex.match(file_name)):
             return config["subFolder"] + "/"  + folder 
-      return config["subFolder"] 
     print("Could not determine new directory for file " + file_path)
     if "miscFolder" in config:
       return config["subFolder"] + "/" + config["miscFolder"]
