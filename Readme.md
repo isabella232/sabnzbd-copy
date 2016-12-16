@@ -1,5 +1,7 @@
 # sabnzbd-copy #
 
+[![Build Status](https://travis-ci.org/xabgesagtx/sabnzbd-copy.svg?branch=master)](https://travis-ci.org/xabgesagtx/sabnzbd-copy)
+
 This is a python script for post processing in sabnzbd
 
 The largest file will be copied depending on the configuration.
